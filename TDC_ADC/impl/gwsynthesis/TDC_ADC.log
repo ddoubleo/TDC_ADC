@@ -1,0 +1,40 @@
+GowinSynthesis start
+Running parser ...
+Analyzing Verilog file 'C:\Work\fpga-adc\TDC_ADC\src\ADC.v'
+Analyzing Verilog file 'C:\Work\fpga-adc\TDC_ADC\src\TDC.v'
+WARN  (EX3786) : Assignment to input 'reset'("C:\Work\fpga-adc\TDC_ADC\src\TDC.v":28)
+Analyzing Verilog file 'C:\Work\fpga-adc\TDC_ADC\src\del_elem.v'
+Analyzing Verilog file 'C:\Work\fpga-adc\TDC_ADC\src\gowin_rpll\gowin_rpll.v'
+Analyzing Verilog file 'C:\Work\fpga-adc\TDC_ADC\src\unary2binary.v'
+Compiling module 'ADC_top'("C:\Work\fpga-adc\TDC_ADC\src\ADC.v":1)
+Compiling module 'Gowin_rPLL'("C:\Work\fpga-adc\TDC_ADC\src\gowin_rpll\gowin_rpll.v":9)
+Compiling module 'TDC'("C:\Work\fpga-adc\TDC_ADC\src\TDC.v":2)
+WARN  (EX1997) : Net 'reset' is already driven by input port 'reset'("C:\Work\fpga-adc\TDC_ADC\src\TDC.v":28)
+Driving port 'reset' is declared here("C:\Work\fpga-adc\TDC_ADC\src\TDC.v":5)
+Compiling module 'del_elem'("C:\Work\fpga-adc\TDC_ADC\src\del_elem.v":1)
+WARN  (EX1997) : Net 'reset' is already driven by input port 'reset'("C:\Work\fpga-adc\TDC_ADC\src\TDC.v":28)
+Port is declared here("C:\Work\fpga-adc\TDC_ADC\src\TDC.v":5)
+Compiling module 'unary2binary'("C:\Work\fpga-adc\TDC_ADC\src\unary2binary.v":1)
+WARN  (EX3791) : Expression size 9 truncated to fit in target size 8("C:\Work\fpga-adc\TDC_ADC\src\unary2binary.v":32)
+NOTE  (EX0101) : Current top module is "ADC_top"
+[5%] Running netlist conversion ...
+WARN  (CV0016) : Input rst is unused("C:\Work\fpga-adc\TDC_ADC\src\ADC.v":4)
+Running device independent optimization ...
+[10%] Optimizing Phase 0 completed
+[15%] Optimizing Phase 1 completed
+[25%] Optimizing Phase 2 completed
+Running inference ...
+[30%] Inferring Phase 0 completed
+[40%] Inferring Phase 1 completed
+[50%] Inferring Phase 2 completed
+[55%] Inferring Phase 3 completed
+Running technical mapping ...
+[60%] Tech-Mapping Phase 0 completed
+[65%] Tech-Mapping Phase 1 completed
+[75%] Tech-Mapping Phase 2 completed
+[80%] Tech-Mapping Phase 3 completed
+[90%] Tech-Mapping Phase 4 completed
+[95%] Generate netlist file "C:\Work\fpga-adc\TDC_ADC\impl\gwsynthesis\TDC_ADC.vg" completed
+NOTE  (TA1125) : More than 6 critical paths are ignored because having large logic level.
+[100%] Generate report file "C:\Work\fpga-adc\TDC_ADC\impl\gwsynthesis\TDC_ADC_syn.rpt.html" completed
+GowinSynthesis finish

@@ -1,0 +1,330 @@
+<?xml version="1" encoding="UTF-8"?>
+<GAO_CONFIG>
+    <Version>3.0</Version>
+    <Mode>Standard</Mode>
+    <AoCore index="0" sample_clock="clk" trig_type="0" storage_depth="1024" window_num="1" capture_amount="1024" trigger_pos="0" module_name="TDC_top" force_trigger_by_falling_edge="false">
+        <SignalList>
+            <Bus name="out_bin[7:0]">
+                <Signal>out_bin[7]</Signal>
+                <Signal>out_bin[6]</Signal>
+                <Signal>out_bin[5]</Signal>
+                <Signal>out_bin[4]</Signal>
+                <Signal>out_bin[3]</Signal>
+                <Signal>out_bin[2]</Signal>
+                <Signal>out_bin[1]</Signal>
+                <Signal>out_bin[0]</Signal>
+            </Bus>
+            <Bus name="regs_out[254:0]">
+                <Signal>regs_out[254]</Signal>
+                <Signal>regs_out[253]</Signal>
+                <Signal>regs_out[252]</Signal>
+                <Signal>regs_out[251]</Signal>
+                <Signal>regs_out[250]</Signal>
+                <Signal>regs_out[249]</Signal>
+                <Signal>regs_out[248]</Signal>
+                <Signal>regs_out[247]</Signal>
+                <Signal>regs_out[246]</Signal>
+                <Signal>regs_out[245]</Signal>
+                <Signal>regs_out[244]</Signal>
+                <Signal>regs_out[243]</Signal>
+                <Signal>regs_out[242]</Signal>
+                <Signal>regs_out[241]</Signal>
+                <Signal>regs_out[240]</Signal>
+                <Signal>regs_out[239]</Signal>
+                <Signal>regs_out[238]</Signal>
+                <Signal>regs_out[237]</Signal>
+                <Signal>regs_out[236]</Signal>
+                <Signal>regs_out[235]</Signal>
+                <Signal>regs_out[234]</Signal>
+                <Signal>regs_out[233]</Signal>
+                <Signal>regs_out[232]</Signal>
+                <Signal>regs_out[231]</Signal>
+                <Signal>regs_out[230]</Signal>
+                <Signal>regs_out[229]</Signal>
+                <Signal>regs_out[228]</Signal>
+                <Signal>regs_out[227]</Signal>
+                <Signal>regs_out[226]</Signal>
+                <Signal>regs_out[225]</Signal>
+                <Signal>regs_out[224]</Signal>
+                <Signal>regs_out[223]</Signal>
+                <Signal>regs_out[222]</Signal>
+                <Signal>regs_out[221]</Signal>
+                <Signal>regs_out[220]</Signal>
+                <Signal>regs_out[219]</Signal>
+                <Signal>regs_out[218]</Signal>
+                <Signal>regs_out[217]</Signal>
+                <Signal>regs_out[216]</Signal>
+                <Signal>regs_out[215]</Signal>
+                <Signal>regs_out[214]</Signal>
+                <Signal>regs_out[213]</Signal>
+                <Signal>regs_out[212]</Signal>
+                <Signal>regs_out[211]</Signal>
+                <Signal>regs_out[210]</Signal>
+                <Signal>regs_out[209]</Signal>
+                <Signal>regs_out[208]</Signal>
+                <Signal>regs_out[207]</Signal>
+                <Signal>regs_out[206]</Signal>
+                <Signal>regs_out[205]</Signal>
+                <Signal>regs_out[204]</Signal>
+                <Signal>regs_out[203]</Signal>
+                <Signal>regs_out[202]</Signal>
+                <Signal>regs_out[201]</Signal>
+                <Signal>regs_out[200]</Signal>
+                <Signal>regs_out[199]</Signal>
+                <Signal>regs_out[198]</Signal>
+                <Signal>regs_out[197]</Signal>
+                <Signal>regs_out[196]</Signal>
+                <Signal>regs_out[195]</Signal>
+                <Signal>regs_out[194]</Signal>
+                <Signal>regs_out[193]</Signal>
+                <Signal>regs_out[192]</Signal>
+                <Signal>regs_out[191]</Signal>
+                <Signal>regs_out[190]</Signal>
+                <Signal>regs_out[189]</Signal>
+                <Signal>regs_out[188]</Signal>
+                <Signal>regs_out[187]</Signal>
+                <Signal>regs_out[186]</Signal>
+                <Signal>regs_out[185]</Signal>
+                <Signal>regs_out[184]</Signal>
+                <Signal>regs_out[183]</Signal>
+                <Signal>regs_out[182]</Signal>
+                <Signal>regs_out[181]</Signal>
+                <Signal>regs_out[180]</Signal>
+                <Signal>regs_out[179]</Signal>
+                <Signal>regs_out[178]</Signal>
+                <Signal>regs_out[177]</Signal>
+                <Signal>regs_out[176]</Signal>
+                <Signal>regs_out[175]</Signal>
+                <Signal>regs_out[174]</Signal>
+                <Signal>regs_out[173]</Signal>
+                <Signal>regs_out[172]</Signal>
+                <Signal>regs_out[171]</Signal>
+                <Signal>regs_out[170]</Signal>
+                <Signal>regs_out[169]</Signal>
+                <Signal>regs_out[168]</Signal>
+                <Signal>regs_out[167]</Signal>
+                <Signal>regs_out[166]</Signal>
+                <Signal>regs_out[165]</Signal>
+                <Signal>regs_out[164]</Signal>
+                <Signal>regs_out[163]</Signal>
+                <Signal>regs_out[162]</Signal>
+                <Signal>regs_out[161]</Signal>
+                <Signal>regs_out[160]</Signal>
+                <Signal>regs_out[159]</Signal>
+                <Signal>regs_out[158]</Signal>
+                <Signal>regs_out[157]</Signal>
+                <Signal>regs_out[156]</Signal>
+                <Signal>regs_out[155]</Signal>
+                <Signal>regs_out[154]</Signal>
+                <Signal>regs_out[153]</Signal>
+                <Signal>regs_out[152]</Signal>
+                <Signal>regs_out[151]</Signal>
+                <Signal>regs_out[150]</Signal>
+                <Signal>regs_out[149]</Signal>
+                <Signal>regs_out[148]</Signal>
+                <Signal>regs_out[147]</Signal>
+                <Signal>regs_out[146]</Signal>
+                <Signal>regs_out[145]</Signal>
+                <Signal>regs_out[144]</Signal>
+                <Signal>regs_out[143]</Signal>
+                <Signal>regs_out[142]</Signal>
+                <Signal>regs_out[141]</Signal>
+                <Signal>regs_out[140]</Signal>
+                <Signal>regs_out[139]</Signal>
+                <Signal>regs_out[138]</Signal>
+                <Signal>regs_out[137]</Signal>
+                <Signal>regs_out[136]</Signal>
+                <Signal>regs_out[135]</Signal>
+                <Signal>regs_out[134]</Signal>
+                <Signal>regs_out[133]</Signal>
+                <Signal>regs_out[132]</Signal>
+                <Signal>regs_out[131]</Signal>
+                <Signal>regs_out[130]</Signal>
+                <Signal>regs_out[129]</Signal>
+                <Signal>regs_out[128]</Signal>
+                <Signal>regs_out[127]</Signal>
+                <Signal>regs_out[126]</Signal>
+                <Signal>regs_out[125]</Signal>
+                <Signal>regs_out[124]</Signal>
+                <Signal>regs_out[123]</Signal>
+                <Signal>regs_out[122]</Signal>
+                <Signal>regs_out[121]</Signal>
+                <Signal>regs_out[120]</Signal>
+                <Signal>regs_out[119]</Signal>
+                <Signal>regs_out[118]</Signal>
+                <Signal>regs_out[117]</Signal>
+                <Signal>regs_out[116]</Signal>
+                <Signal>regs_out[115]</Signal>
+                <Signal>regs_out[114]</Signal>
+                <Signal>regs_out[113]</Signal>
+                <Signal>regs_out[112]</Signal>
+                <Signal>regs_out[111]</Signal>
+                <Signal>regs_out[110]</Signal>
+                <Signal>regs_out[109]</Signal>
+                <Signal>regs_out[108]</Signal>
+                <Signal>regs_out[107]</Signal>
+                <Signal>regs_out[106]</Signal>
+                <Signal>regs_out[105]</Signal>
+                <Signal>regs_out[104]</Signal>
+                <Signal>regs_out[103]</Signal>
+                <Signal>regs_out[102]</Signal>
+                <Signal>regs_out[101]</Signal>
+                <Signal>regs_out[100]</Signal>
+                <Signal>regs_out[99]</Signal>
+                <Signal>regs_out[98]</Signal>
+                <Signal>regs_out[97]</Signal>
+                <Signal>regs_out[96]</Signal>
+                <Signal>regs_out[95]</Signal>
+                <Signal>regs_out[94]</Signal>
+                <Signal>regs_out[93]</Signal>
+                <Signal>regs_out[92]</Signal>
+                <Signal>regs_out[91]</Signal>
+                <Signal>regs_out[90]</Signal>
+                <Signal>regs_out[89]</Signal>
+                <Signal>regs_out[88]</Signal>
+                <Signal>regs_out[87]</Signal>
+                <Signal>regs_out[86]</Signal>
+                <Signal>regs_out[85]</Signal>
+                <Signal>regs_out[84]</Signal>
+                <Signal>regs_out[83]</Signal>
+                <Signal>regs_out[82]</Signal>
+                <Signal>regs_out[81]</Signal>
+                <Signal>regs_out[80]</Signal>
+                <Signal>regs_out[79]</Signal>
+                <Signal>regs_out[78]</Signal>
+                <Signal>regs_out[77]</Signal>
+                <Signal>regs_out[76]</Signal>
+                <Signal>regs_out[75]</Signal>
+                <Signal>regs_out[74]</Signal>
+                <Signal>regs_out[73]</Signal>
+                <Signal>regs_out[72]</Signal>
+                <Signal>regs_out[71]</Signal>
+                <Signal>regs_out[70]</Signal>
+                <Signal>regs_out[69]</Signal>
+                <Signal>regs_out[68]</Signal>
+                <Signal>regs_out[67]</Signal>
+                <Signal>regs_out[66]</Signal>
+                <Signal>regs_out[65]</Signal>
+                <Signal>regs_out[64]</Signal>
+                <Signal>regs_out[63]</Signal>
+                <Signal>regs_out[62]</Signal>
+                <Signal>regs_out[61]</Signal>
+                <Signal>regs_out[60]</Signal>
+                <Signal>regs_out[59]</Signal>
+                <Signal>regs_out[58]</Signal>
+                <Signal>regs_out[57]</Signal>
+                <Signal>regs_out[56]</Signal>
+                <Signal>regs_out[55]</Signal>
+                <Signal>regs_out[54]</Signal>
+                <Signal>regs_out[53]</Signal>
+                <Signal>regs_out[52]</Signal>
+                <Signal>regs_out[51]</Signal>
+                <Signal>regs_out[50]</Signal>
+                <Signal>regs_out[49]</Signal>
+                <Signal>regs_out[48]</Signal>
+                <Signal>regs_out[47]</Signal>
+                <Signal>regs_out[46]</Signal>
+                <Signal>regs_out[45]</Signal>
+                <Signal>regs_out[44]</Signal>
+                <Signal>regs_out[43]</Signal>
+                <Signal>regs_out[42]</Signal>
+                <Signal>regs_out[41]</Signal>
+                <Signal>regs_out[40]</Signal>
+                <Signal>regs_out[39]</Signal>
+                <Signal>regs_out[38]</Signal>
+                <Signal>regs_out[37]</Signal>
+                <Signal>regs_out[36]</Signal>
+                <Signal>regs_out[35]</Signal>
+                <Signal>regs_out[34]</Signal>
+                <Signal>regs_out[33]</Signal>
+                <Signal>regs_out[32]</Signal>
+                <Signal>regs_out[31]</Signal>
+                <Signal>regs_out[30]</Signal>
+                <Signal>regs_out[29]</Signal>
+                <Signal>regs_out[28]</Signal>
+                <Signal>regs_out[27]</Signal>
+                <Signal>regs_out[26]</Signal>
+                <Signal>regs_out[25]</Signal>
+                <Signal>regs_out[24]</Signal>
+                <Signal>regs_out[23]</Signal>
+                <Signal>regs_out[22]</Signal>
+                <Signal>regs_out[21]</Signal>
+                <Signal>regs_out[20]</Signal>
+                <Signal>regs_out[19]</Signal>
+                <Signal>regs_out[18]</Signal>
+                <Signal>regs_out[17]</Signal>
+                <Signal>regs_out[16]</Signal>
+                <Signal>regs_out[15]</Signal>
+                <Signal>regs_out[14]</Signal>
+                <Signal>regs_out[13]</Signal>
+                <Signal>regs_out[12]</Signal>
+                <Signal>regs_out[11]</Signal>
+                <Signal>regs_out[10]</Signal>
+                <Signal>regs_out[9]</Signal>
+                <Signal>regs_out[8]</Signal>
+                <Signal>regs_out[7]</Signal>
+                <Signal>regs_out[6]</Signal>
+                <Signal>regs_out[5]</Signal>
+                <Signal>regs_out[4]</Signal>
+                <Signal>regs_out[3]</Signal>
+                <Signal>regs_out[2]</Signal>
+                <Signal>regs_out[1]</Signal>
+                <Signal>regs_out[0]</Signal>
+            </Bus>
+            <Signal>start</Signal>
+        </SignalList>
+        <Triggers>
+            <Trigger index="0">
+                <SignalList>
+                    <Bus restorename="out_bin[7:0]">
+                        <Signal>out_bin[7]</Signal>
+                        <Signal>out_bin[6]</Signal>
+                        <Signal>out_bin[5]</Signal>
+                        <Signal>out_bin[4]</Signal>
+                        <Signal>out_bin[3]</Signal>
+                        <Signal>out_bin[2]</Signal>
+                        <Signal>out_bin[1]</Signal>
+                        <Signal>out_bin[0]</Signal>
+                    </Bus>
+                </SignalList>
+            </Trigger>
+            <Trigger index="1"/>
+            <Trigger index="2"/>
+            <Trigger index="3"/>
+            <Trigger index="4"/>
+            <Trigger index="5"/>
+            <Trigger index="6"/>
+            <Trigger index="7"/>
+            <Trigger index="8"/>
+            <Trigger index="9"/>
+            <Trigger index="10"/>
+            <Trigger index="11"/>
+            <Trigger index="12"/>
+            <Trigger index="13"/>
+            <Trigger index="14"/>
+            <Trigger index="15"/>
+        </Triggers>
+        <MatchUnits>
+            <MatchUnit index="0" enabled="1" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="1" value0="00000000" value1="00000000" trigger="0"/>
+            <MatchUnit index="1" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="2" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="3" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="4" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="5" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="6" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="7" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="8" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="9" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="10" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="11" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="12" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="13" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="14" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="15" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+        </MatchUnits>
+        <Expressions type="Static">
+            <Expression>M0</Expression>
+        </Expressions>
+    </AoCore>
+    <GAO_ID>0101110110011010</GAO_ID>
+</GAO_CONFIG>

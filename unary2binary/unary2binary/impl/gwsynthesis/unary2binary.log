@@ -1,0 +1,36 @@
+GowinSynthesis start
+Running parser ...
+Analyzing Verilog file 'C:\Work\fpga-adc\unary2binary\unary2binary\src\unary2binary.v'
+Analyzing Verilog file 'C:\Work\fpga-adc\unary2binary\unary2binary\src\tb_u2b.v'
+Compiling module 'tb_u2b'("C:\Work\fpga-adc\unary2binary\unary2binary\src\tb_u2b.v":2)
+WARN  (EX2629) : Delay control is not supported for synthesis("C:\Work\fpga-adc\unary2binary\unary2binary\src\tb_u2b.v":16)
+WARN  (EX2629) : Delay control is not supported for synthesis("C:\Work\fpga-adc\unary2binary\unary2binary\src\tb_u2b.v":18)
+WARN  (EX2629) : Delay control is not supported for synthesis("C:\Work\fpga-adc\unary2binary\unary2binary\src\tb_u2b.v":20)
+WARN  (EX2629) : Delay control is not supported for synthesis("C:\Work\fpga-adc\unary2binary\unary2binary\src\tb_u2b.v":22)
+WARN  (EX3858) : System task 'stop' is ignored for synthesis("C:\Work\fpga-adc\unary2binary\unary2binary\src\tb_u2b.v":23)
+WARN  (EX3780) : Using initial value of 'unary' since it is never assigned("C:\Work\fpga-adc\unary2binary\unary2binary\src\tb_u2b.v":24)
+Compiling module 'unary2binary'("C:\Work\fpga-adc\unary2binary\unary2binary\src\unary2binary.v":1)
+WARN  (EX3791) : Expression size 9 truncated to fit in target size 8("C:\Work\fpga-adc\unary2binary\unary2binary\src\unary2binary.v":31)
+WARN  (EX2629) : Delay control is not supported for synthesis("C:\Work\fpga-adc\unary2binary\unary2binary\src\tb_u2b.v":27)
+NOTE  (EX0101) : Current top module is "tb_u2b"
+WARN  (EX0203) : Top module "tb_u2b" has no ports("C:\Work\fpga-adc\unary2binary\unary2binary\src\tb_u2b.v":2)
+[5%] Running netlist conversion ...
+Running device independent optimization ...
+[10%] Optimizing Phase 0 completed
+[15%] Optimizing Phase 1 completed
+[25%] Optimizing Phase 2 completed
+Running inference ...
+[30%] Inferring Phase 0 completed
+[40%] Inferring Phase 1 completed
+[50%] Inferring Phase 2 completed
+[55%] Inferring Phase 3 completed
+Running technical mapping ...
+[60%] Tech-Mapping Phase 0 completed
+[65%] Tech-Mapping Phase 1 completed
+[75%] Tech-Mapping Phase 2 completed
+[80%] Tech-Mapping Phase 3 completed
+[90%] Tech-Mapping Phase 4 completed
+WARN  (NL0002) : The module "unary2binary" instantiated to "u2b_inst" is swept in optimizing("C:\Work\fpga-adc\unary2binary\unary2binary\src\tb_u2b.v":11)
+[95%] Generate netlist file "C:\Work\fpga-adc\unary2binary\unary2binary\impl\gwsynthesis\unary2binary.vg" completed
+[100%] Generate report file "C:\Work\fpga-adc\unary2binary\unary2binary\impl\gwsynthesis\unary2binary_syn.rpt.html" completed
+GowinSynthesis finish

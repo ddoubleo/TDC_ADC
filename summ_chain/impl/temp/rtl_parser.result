@@ -1,0 +1,36 @@
+[
+ {
+  "InstFile" : "C:/Work/fpga-adc/summ_chain/src/summ_chain.v",
+  "InstLine" : 1,
+  "InstName" : "summ_chain",
+  "ModuleFile" : "C:/Work/fpga-adc/summ_chain/src/summ_chain.v",
+  "ModuleLine" : 1,
+  "ModuleName" : "summ_chain",
+  "SubInsts" : [
+   {
+    "InstFile" : "C:/Work/fpga-adc/summ_chain/src/summ_chain.v",
+    "InstLine" : 8,
+    "InstName" : "summ_inst0",
+    "ModuleFile" : "C:/Work/fpga-adc/summ_chain/src/full_sum.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "full_sum"
+   },
+   {
+    "InstFile" : "C:/Work/fpga-adc/summ_chain/src/summ_chain.v",
+    "InstLine" : 18,
+    "InstName" : "summ_inst1",
+    "ModuleFile" : "C:/Work/fpga-adc/summ_chain/src/full_sum.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "full_sum"
+   },
+   {
+    "InstFile" : "C:/Work/fpga-adc/summ_chain/src/summ_chain.v",
+    "InstLine" : 28,
+    "InstName" : "summ_inst2",
+    "ModuleFile" : "C:/Work/fpga-adc/summ_chain/src/full_sum.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "full_sum"
+   }
+  ]
+ }
+]

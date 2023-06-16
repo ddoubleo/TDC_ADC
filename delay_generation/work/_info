@@ -1,0 +1,75 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/GowinProjects/adc_gowin_2/lut_gen_test
+vDEL_elem
+!s110 1655484319
+!i10b 1
+!s100 PR?U`VJhm5d`_>`4d1[Wl2
+IO>SCoQD?b_eRkWiAHLOj[1
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1655473896
+8D:/GowinProjects/adc_gowin_2/lut_gen_test/src/DEL_elem.v
+FD:/GowinProjects/adc_gowin_2/lut_gen_test/src/DEL_elem.v
+L0 1
+Z2 OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1655484319.000000
+!s107 D:/GowinProjects/adc_gowin_2/lut_gen_test/src/DEL_elem.v|
+!s90 -reportprogress|300|-work|work|D:/GowinProjects/adc_gowin_2/lut_gen_test/src/DEL_elem.v|
+!i113 1
+Z3 o-work work
+Z4 tCvgOpt 0
+n@d@e@l_elem
+vDel_elem_generator
+!s110 1655484320
+!i10b 1
+!s100 finN5n[9m413dc?=3BZ;a1
+IGV^ibWS6JHki`JTmTAC750
+R1
+R0
+w1655480270
+8D:/GowinProjects/adc_gowin_2/lut_gen_test/src/Del_elem_generator.v
+FD:/GowinProjects/adc_gowin_2/lut_gen_test/src/Del_elem_generator.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1655484320.000000
+!s107 D:/GowinProjects/adc_gowin_2/lut_gen_test/src/Del_elem_generator.v|
+!s90 -reportprogress|300|-work|work|D:/GowinProjects/adc_gowin_2/lut_gen_test/src/Del_elem_generator.v|
+!i113 1
+R3
+R4
+n@del_elem_generator
+vtb_del_elem_gen
+!s110 1655484688
+!i10b 1
+!s100 V_20>RGD41N0]]_@]Ud:d2
+I5fiRh^Rb20XX=z4c:]VGX0
+R1
+R0
+w1655484683
+8D:/GowinProjects/adc_gowin_2/lut_gen_test/src/tb_del_elem_gen.v
+FD:/GowinProjects/adc_gowin_2/lut_gen_test/src/tb_del_elem_gen.v
+L0 2
+R2
+r1
+!s85 0
+31
+!s108 1655484688.000000
+!s107 D:/GowinProjects/adc_gowin_2/lut_gen_test/src/tb_del_elem_gen.v|
+!s90 -reportprogress|300|-work|work|D:/GowinProjects/adc_gowin_2/lut_gen_test/src/tb_del_elem_gen.v|
+!i113 1
+R3
+R4

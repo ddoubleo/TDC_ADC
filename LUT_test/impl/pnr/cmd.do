@@ -1,0 +1,11 @@
+-d C:\Work\ADC\LUT_test\impl\gwsynthesis\LUT_test.vg
+-p GW1N-9-LQFP144-6
+-pn GW1N-LV9LQ144C6/I5
+-cst C:\Work\ADC\LUT_test\src\test.cst
+-cfg C:\Work\ADC\LUT_test\impl\pnr\device.cfg
+-sdc C:\Work\ADC\LUT_test\src\test.sdc
+-bit
+-tr
+-ph
+-timing
+-cst_error

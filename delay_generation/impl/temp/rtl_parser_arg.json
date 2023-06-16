@@ -1,0 +1,28 @@
+{
+ "Files" : [
+  {
+   "Path" : "C:/Work/fpga-adc/delay_generation/src/TDC.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Work/fpga-adc/delay_generation/src/TDC_top.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Work/fpga-adc/delay_generation/src/del_elem_variant_2.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Work/fpga-adc/delay_generation/src/unary2binary.v",
+   "Type" : "verilog"
+  }
+ ],
+ "IncludePath" : [
+
+ ],
+ "LoopLimit" : 2000,
+ "ResultFile" : "C:/Work/fpga-adc/delay_generation/impl/temp/rtl_parser.result",
+ "Top" : "",
+ "VerilogStd" : "verilog_2001",
+ "VhdlStd" : "vhdl_93"
+}

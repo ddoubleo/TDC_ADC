@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module name="summ_chain">
+    <SubModule name="summ_inst0" Register="1"/>
+</Module>

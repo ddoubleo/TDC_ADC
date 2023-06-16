@@ -1,0 +1,14 @@
+-d C:\Work\fpga-adc\delay_generation\impl\gwsynthesis\lut_gen_test.vg
+-p GW1N-9-LQFP144-6
+-pn GW1N-LV9LQ144C6/I5
+-cst C:\Work\fpga-adc\delay_generation\src\routing.cst
+-cfg C:\Work\fpga-adc\delay_generation\impl\pnr\device.cfg
+-sdc C:\Work\fpga-adc\delay_generation\src\lut_gen_test.sdc
+-gao_crc 0101110110011010
+-bit
+-tr
+-ph
+-warning_all
+-timing
+-cst_error
+-rtl_gao

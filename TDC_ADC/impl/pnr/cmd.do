@@ -1,0 +1,10 @@
+-d C:\Work\fpga-adc\TDC_ADC\impl\gwsynthesis\TDC_ADC.vg
+-p GW1N-9-LQFP144-6
+-pn GW1N-LV9LQ144C6/I5
+-cst C:\Work\fpga-adc\TDC_ADC\src\routing.cst
+-cfg C:\Work\fpga-adc\TDC_ADC\impl\pnr\device.cfg
+-bit
+-tr
+-ph
+-timing
+-cst_error

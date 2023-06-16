@@ -1,0 +1,132 @@
+//
+//Written by GowinSynthesis
+//Product Version "GowinSynthesis V1.9.8.03"
+//Fri Jul 01 13:54:12 2022
+
+//Source file index table:
+//file0 "\C:/Work/fpga-adc/summ_chain/src/full_sum.v"
+//file1 "\C:/Work/fpga-adc/summ_chain/src/summ_chain.v"
+`timescale 100 ps/100 ps
+module full_sum (
+  out0_Z,
+  clk_d,
+  regs_out_d
+)
+;
+input out0_Z;
+input clk_d;
+output [0:0] regs_out_d;
+wire VCC;
+wire GND;
+  DFF reg_out_s0 (
+    .Q(regs_out_d[0]),
+    .D(out0_Z),
+    .CLK(clk_d) 
+);
+  VCC VCC_cZ (
+    .V(VCC)
+);
+  GND GND_cZ (
+    .G(GND)
+);
+endmodule /* full_sum */
+module summ_chain (
+  start,
+  clk,
+  regs_out,
+  out,
+  o1,
+  o2,
+  o3
+)
+;
+input start;
+input clk;
+output [7:0] regs_out;
+output out;
+output o1;
+output o2;
+output o3;
+wire out0_Z;
+wire clk_d;
+wire [0:0] regs_out_d;
+wire VCC;
+wire GND;
+  IBUF start_ibuf (
+    .O(out0_Z),
+    .I(start) 
+);
+  IBUF clk_ibuf (
+    .O(clk_d),
+    .I(clk) 
+);
+  OBUF regs_out_0_obuf (
+    .O(regs_out[0]),
+    .I(regs_out_d[0]) 
+);
+  OBUF regs_out_1_obuf (
+    .O(regs_out[1]),
+    .I(VCC) 
+);
+  OBUF regs_out_2_obuf (
+    .O(regs_out[2]),
+    .I(VCC) 
+);
+  TBUF regs_out_7_s0 (
+    .O(regs_out[3]),
+    .I(GND),
+    .OEN(VCC) 
+);
+  TBUF regs_out_7_s1 (
+    .O(regs_out[4]),
+    .I(GND),
+    .OEN(VCC) 
+);
+  TBUF regs_out_7_s2 (
+    .O(regs_out[5]),
+    .I(GND),
+    .OEN(VCC) 
+);
+  TBUF regs_out_7_s3 (
+    .O(regs_out[6]),
+    .I(GND),
+    .OEN(VCC) 
+);
+  TBUF regs_out_7_s4 (
+    .O(regs_out[7]),
+    .I(GND),
+    .OEN(VCC) 
+);
+  OBUF out_obuf (
+    .O(out),
+    .I(VCC) 
+);
+  OBUF o1_obuf (
+    .O(o1),
+    .I(VCC) 
+);
+  TBUF o2_s0 (
+    .O(o2),
+    .I(GND),
+    .OEN(VCC) 
+);
+  TBUF o3_s0 (
+    .O(o3),
+    .I(GND),
+    .OEN(VCC) 
+);
+  full_sum summ_inst0 (
+    .out0_Z(out0_Z),
+    .clk_d(clk_d),
+    .regs_out_d(regs_out_d[0])
+);
+  VCC VCC_cZ (
+    .V(VCC)
+);
+  GND GND_cZ (
+    .G(GND)
+);
+  GSR GSR (
+    .GSRI(VCC) 
+);
+endmodule /* summ_chain */

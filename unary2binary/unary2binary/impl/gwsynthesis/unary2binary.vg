@@ -1,0 +1,25 @@
+//
+//Written by GowinSynthesis
+//Product Version "GowinSynthesis V1.9.8.03"
+//Fri Jul 01 12:14:41 2022
+
+//Source file index table:
+//file0 "\C:/Work/fpga-adc/unary2binary/unary2binary/src/unary2binary.v"
+//file1 "\C:/Work/fpga-adc/unary2binary/unary2binary/src/tb_u2b.v"
+`timescale 100 ps/100 ps
+module tb_u2b (
+
+)
+;
+wire VCC;
+wire GND;
+  VCC VCC_cZ (
+    .V(VCC)
+);
+  GND GND_cZ (
+    .G(GND)
+);
+  GSR GSR (
+    .GSRI(VCC) 
+);
+endmodule /* tb_u2b */

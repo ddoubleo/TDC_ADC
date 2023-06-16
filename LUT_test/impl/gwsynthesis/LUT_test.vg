@@ -1,0 +1,81 @@
+//
+//Written by GowinSynthesis
+//Product Version "GowinSynthesis V1.9.8.03"
+//Thu Jun 16 16:38:56 2022
+
+//Source file index table:
+//file0 "\C:/Work/ADC/LUT_test/src/test.v"
+//file1 "\C:/Work/ADC/LUT_test/src/gowin_osc/gowin_osc.v"
+`timescale 100 ps/100 ps
+module Gowin_OSC (
+  clk
+)
+;
+output clk;
+wire VCC;
+wire GND;
+  OSC osc_inst (
+    .OSCOUT(clk) 
+);
+defparam osc_inst.DEVICE="GW1N-9";
+defparam osc_inst.FREQ_DIV=100;
+  VCC VCC_cZ (
+    .V(VCC)
+);
+  GND GND_cZ (
+    .G(GND)
+);
+endmodule /* Gowin_OSC */
+module LUT_test (
+  reg_out,
+  delay_out
+)
+;
+output reg_out;
+output delay_out;
+wire alu_out;
+wire delay_out_d;
+wire reg_out_d;
+wire clk;
+wire VCC;
+wire GND;
+  OBUF reg_out_obuf (
+    .O(reg_out),
+    .I(reg_out_d) 
+);
+  OBUF delay_out_obuf (
+    .O(delay_out),
+    .I(delay_out_d) 
+);
+  LUT3 test_lut1 (
+    .F(alu_out),
+    .I0(VCC),
+    .I1(GND),
+    .I2(VCC) 
+);
+defparam test_lut1.INIT=8'hE0;
+  LUT3 test_lut2 (
+    .F(delay_out_d),
+    .I0(VCC),
+    .I1(GND),
+    .I2(alu_out) 
+);
+defparam test_lut2.INIT=8'hE0;
+  DFF test_reg (
+    .Q(reg_out_d),
+    .D(alu_out),
+    .CLK(clk) 
+);
+  Gowin_OSC osc_test (
+    .clk(clk)
+);
+  VCC VCC_cZ (
+    .V(VCC)
+);
+  GND GND_cZ (
+    .G(GND)
+);
+  GSR GSR (
+    .GSRI(VCC) 
+);
+endmodule /* LUT_test */

@@ -1,0 +1,32 @@
+{
+ "Files" : [
+  {
+   "Path" : "C:/Work/fpga-adc/TDC_ADC/src/ADC.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Work/fpga-adc/TDC_ADC/src/gowin_rpll/gowin_rpll.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Work/fpga-adc/TDC_ADC/src/unary2binary.v",
+   "Type" : "verilog"
+  }
+ ],
+ "IncludePath" : [
+
+ ],
+ "LoopLimit" : 2000,
+ "ResultFile" : "C:/Work/fpga-adc/TDC_ADC/impl/temp/rtl_parser.result",
+ "Top" : "",
+ "VerilogStd" : "verilog_2001",
+ "VhdlStd" : "vhdl_93"
+}

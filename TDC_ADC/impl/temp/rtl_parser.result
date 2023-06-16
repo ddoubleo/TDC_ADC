@@ -1,0 +1,2078 @@
+[
+ {
+  "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/ADC.v",
+  "InstLine" : 1,
+  "InstName" : "ADC_top",
+  "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/ADC.v",
+  "ModuleLine" : 1,
+  "ModuleName" : "ADC_top",
+  "SubInsts" : [
+   {
+    "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/ADC.v",
+    "InstLine" : 20,
+    "InstName" : "pll_inst",
+    "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/gowin_rpll/gowin_rpll.v",
+    "ModuleLine" : 9,
+    "ModuleName" : "Gowin_rPLL"
+   },
+   {
+    "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/ADC.v",
+    "InstLine" : 28,
+    "InstName" : "TDC_inst",
+    "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+    "ModuleLine" : 2,
+    "ModuleName" : "TDC",
+    "SubInsts" : [
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 285,
+      "InstName" : "inst0",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 293,
+      "InstName" : "inst1",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 301,
+      "InstName" : "inst2",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 309,
+      "InstName" : "inst3",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 317,
+      "InstName" : "inst4",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 325,
+      "InstName" : "inst5",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 333,
+      "InstName" : "inst6",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 341,
+      "InstName" : "inst7",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 349,
+      "InstName" : "inst8",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 357,
+      "InstName" : "inst9",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 365,
+      "InstName" : "inst10",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 373,
+      "InstName" : "inst11",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 381,
+      "InstName" : "inst12",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 389,
+      "InstName" : "inst13",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 397,
+      "InstName" : "inst14",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 405,
+      "InstName" : "inst15",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 413,
+      "InstName" : "inst16",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 421,
+      "InstName" : "inst17",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 429,
+      "InstName" : "inst18",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 437,
+      "InstName" : "inst19",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 445,
+      "InstName" : "inst20",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 453,
+      "InstName" : "inst21",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 461,
+      "InstName" : "inst22",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 469,
+      "InstName" : "inst23",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 477,
+      "InstName" : "inst24",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 485,
+      "InstName" : "inst25",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 493,
+      "InstName" : "inst26",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 501,
+      "InstName" : "inst27",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 509,
+      "InstName" : "inst28",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 517,
+      "InstName" : "inst29",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 525,
+      "InstName" : "inst30",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 533,
+      "InstName" : "inst31",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 541,
+      "InstName" : "inst32",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 549,
+      "InstName" : "inst33",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 557,
+      "InstName" : "inst34",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 565,
+      "InstName" : "inst35",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 573,
+      "InstName" : "inst36",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 581,
+      "InstName" : "inst37",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 589,
+      "InstName" : "inst38",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 597,
+      "InstName" : "inst39",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 605,
+      "InstName" : "inst40",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 613,
+      "InstName" : "inst41",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 621,
+      "InstName" : "inst42",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 629,
+      "InstName" : "inst43",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 637,
+      "InstName" : "inst44",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 645,
+      "InstName" : "inst45",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 653,
+      "InstName" : "inst46",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 661,
+      "InstName" : "inst47",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 669,
+      "InstName" : "inst48",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 677,
+      "InstName" : "inst49",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 685,
+      "InstName" : "inst50",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 693,
+      "InstName" : "inst51",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 701,
+      "InstName" : "inst52",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 709,
+      "InstName" : "inst53",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 717,
+      "InstName" : "inst54",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 725,
+      "InstName" : "inst55",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 733,
+      "InstName" : "inst56",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 741,
+      "InstName" : "inst57",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 749,
+      "InstName" : "inst58",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 757,
+      "InstName" : "inst59",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 765,
+      "InstName" : "inst60",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 773,
+      "InstName" : "inst61",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 781,
+      "InstName" : "inst62",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 789,
+      "InstName" : "inst63",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 797,
+      "InstName" : "inst64",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 805,
+      "InstName" : "inst65",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 813,
+      "InstName" : "inst66",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 821,
+      "InstName" : "inst67",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 829,
+      "InstName" : "inst68",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 837,
+      "InstName" : "inst69",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 845,
+      "InstName" : "inst70",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 853,
+      "InstName" : "inst71",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 861,
+      "InstName" : "inst72",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 869,
+      "InstName" : "inst73",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 877,
+      "InstName" : "inst74",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 885,
+      "InstName" : "inst75",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 893,
+      "InstName" : "inst76",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 901,
+      "InstName" : "inst77",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 909,
+      "InstName" : "inst78",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 917,
+      "InstName" : "inst79",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 925,
+      "InstName" : "inst80",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 933,
+      "InstName" : "inst81",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 941,
+      "InstName" : "inst82",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 949,
+      "InstName" : "inst83",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 957,
+      "InstName" : "inst84",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 965,
+      "InstName" : "inst85",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 973,
+      "InstName" : "inst86",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 981,
+      "InstName" : "inst87",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 989,
+      "InstName" : "inst88",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 997,
+      "InstName" : "inst89",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 1005,
+      "InstName" : "inst90",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 1013,
+      "InstName" : "inst91",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 1021,
+      "InstName" : "inst92",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 1029,
+      "InstName" : "inst93",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 1037,
+      "InstName" : "inst94",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 1045,
+      "InstName" : "inst95",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 1053,
+      "InstName" : "inst96",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 1061,
+      "InstName" : "inst97",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 1069,
+      "InstName" : "inst98",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 1077,
+      "InstName" : "inst99",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 1085,
+      "InstName" : "inst100",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 1093,
+      "InstName" : "inst101",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 1101,
+      "InstName" : "inst102",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 1109,
+      "InstName" : "inst103",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 1117,
+      "InstName" : "inst104",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 1125,
+      "InstName" : "inst105",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 1133,
+      "InstName" : "inst106",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 1141,
+      "InstName" : "inst107",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 1149,
+      "InstName" : "inst108",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 1157,
+      "InstName" : "inst109",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 1165,
+      "InstName" : "inst110",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 1173,
+      "InstName" : "inst111",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 1181,
+      "InstName" : "inst112",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 1189,
+      "InstName" : "inst113",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 1197,
+      "InstName" : "inst114",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 1205,
+      "InstName" : "inst115",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 1213,
+      "InstName" : "inst116",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 1221,
+      "InstName" : "inst117",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 1229,
+      "InstName" : "inst118",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 1237,
+      "InstName" : "inst119",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 1245,
+      "InstName" : "inst120",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 1253,
+      "InstName" : "inst121",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 1261,
+      "InstName" : "inst122",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 1269,
+      "InstName" : "inst123",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 1277,
+      "InstName" : "inst124",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 1285,
+      "InstName" : "inst125",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 1293,
+      "InstName" : "inst126",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 1301,
+      "InstName" : "inst127",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 1309,
+      "InstName" : "inst128",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 1317,
+      "InstName" : "inst129",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 1325,
+      "InstName" : "inst130",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 1333,
+      "InstName" : "inst131",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 1341,
+      "InstName" : "inst132",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 1349,
+      "InstName" : "inst133",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 1357,
+      "InstName" : "inst134",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 1365,
+      "InstName" : "inst135",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 1373,
+      "InstName" : "inst136",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 1381,
+      "InstName" : "inst137",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 1389,
+      "InstName" : "inst138",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 1397,
+      "InstName" : "inst139",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 1405,
+      "InstName" : "inst140",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 1413,
+      "InstName" : "inst141",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 1421,
+      "InstName" : "inst142",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 1429,
+      "InstName" : "inst143",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 1437,
+      "InstName" : "inst144",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 1445,
+      "InstName" : "inst145",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 1453,
+      "InstName" : "inst146",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 1461,
+      "InstName" : "inst147",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 1469,
+      "InstName" : "inst148",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 1477,
+      "InstName" : "inst149",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 1485,
+      "InstName" : "inst150",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 1493,
+      "InstName" : "inst151",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 1501,
+      "InstName" : "inst152",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 1509,
+      "InstName" : "inst153",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 1517,
+      "InstName" : "inst154",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 1525,
+      "InstName" : "inst155",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 1533,
+      "InstName" : "inst156",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 1541,
+      "InstName" : "inst157",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 1549,
+      "InstName" : "inst158",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 1557,
+      "InstName" : "inst159",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 1565,
+      "InstName" : "inst160",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 1573,
+      "InstName" : "inst161",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 1581,
+      "InstName" : "inst162",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 1589,
+      "InstName" : "inst163",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 1597,
+      "InstName" : "inst164",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 1605,
+      "InstName" : "inst165",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 1613,
+      "InstName" : "inst166",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 1621,
+      "InstName" : "inst167",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 1629,
+      "InstName" : "inst168",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 1637,
+      "InstName" : "inst169",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 1645,
+      "InstName" : "inst170",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 1653,
+      "InstName" : "inst171",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 1661,
+      "InstName" : "inst172",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 1669,
+      "InstName" : "inst173",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 1677,
+      "InstName" : "inst174",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 1685,
+      "InstName" : "inst175",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 1693,
+      "InstName" : "inst176",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 1701,
+      "InstName" : "inst177",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 1709,
+      "InstName" : "inst178",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 1717,
+      "InstName" : "inst179",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 1725,
+      "InstName" : "inst180",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 1733,
+      "InstName" : "inst181",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 1741,
+      "InstName" : "inst182",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 1749,
+      "InstName" : "inst183",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 1757,
+      "InstName" : "inst184",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 1765,
+      "InstName" : "inst185",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 1773,
+      "InstName" : "inst186",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 1781,
+      "InstName" : "inst187",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 1789,
+      "InstName" : "inst188",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 1797,
+      "InstName" : "inst189",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 1805,
+      "InstName" : "inst190",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 1813,
+      "InstName" : "inst191",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 1821,
+      "InstName" : "inst192",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 1829,
+      "InstName" : "inst193",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 1837,
+      "InstName" : "inst194",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 1845,
+      "InstName" : "inst195",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 1853,
+      "InstName" : "inst196",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 1861,
+      "InstName" : "inst197",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 1869,
+      "InstName" : "inst198",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 1877,
+      "InstName" : "inst199",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 1885,
+      "InstName" : "inst200",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 1893,
+      "InstName" : "inst201",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 1901,
+      "InstName" : "inst202",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 1909,
+      "InstName" : "inst203",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 1917,
+      "InstName" : "inst204",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 1925,
+      "InstName" : "inst205",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 1933,
+      "InstName" : "inst206",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 1941,
+      "InstName" : "inst207",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 1949,
+      "InstName" : "inst208",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 1957,
+      "InstName" : "inst209",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 1965,
+      "InstName" : "inst210",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 1973,
+      "InstName" : "inst211",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 1981,
+      "InstName" : "inst212",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 1989,
+      "InstName" : "inst213",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 1997,
+      "InstName" : "inst214",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 2005,
+      "InstName" : "inst215",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 2013,
+      "InstName" : "inst216",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 2021,
+      "InstName" : "inst217",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 2029,
+      "InstName" : "inst218",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 2037,
+      "InstName" : "inst219",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 2045,
+      "InstName" : "inst220",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 2053,
+      "InstName" : "inst221",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 2061,
+      "InstName" : "inst222",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 2069,
+      "InstName" : "inst223",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 2077,
+      "InstName" : "inst224",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 2085,
+      "InstName" : "inst225",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 2093,
+      "InstName" : "inst226",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 2101,
+      "InstName" : "inst227",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 2109,
+      "InstName" : "inst228",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 2117,
+      "InstName" : "inst229",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 2125,
+      "InstName" : "inst230",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 2133,
+      "InstName" : "inst231",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 2141,
+      "InstName" : "inst232",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 2149,
+      "InstName" : "inst233",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 2157,
+      "InstName" : "inst234",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 2165,
+      "InstName" : "inst235",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 2173,
+      "InstName" : "inst236",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 2181,
+      "InstName" : "inst237",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 2189,
+      "InstName" : "inst238",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 2197,
+      "InstName" : "inst239",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 2205,
+      "InstName" : "inst240",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 2213,
+      "InstName" : "inst241",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 2221,
+      "InstName" : "inst242",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 2229,
+      "InstName" : "inst243",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 2237,
+      "InstName" : "inst244",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 2245,
+      "InstName" : "inst245",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 2253,
+      "InstName" : "inst246",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 2261,
+      "InstName" : "inst247",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 2269,
+      "InstName" : "inst248",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 2277,
+      "InstName" : "inst249",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 2285,
+      "InstName" : "inst250",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 2293,
+      "InstName" : "inst251",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 2301,
+      "InstName" : "inst252",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 2309,
+      "InstName" : "inst253",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     },
+     {
+      "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/TDC.v",
+      "InstLine" : 2317,
+      "InstName" : "inst254",
+      "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/del_elem.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "del_elem"
+     }
+    ]
+   },
+   {
+    "InstFile" : "C:/Work/fpga-adc/TDC_ADC/src/ADC.v",
+    "InstLine" : 63,
+    "InstName" : "u2b_inst",
+    "ModuleFile" : "C:/Work/fpga-adc/TDC_ADC/src/unary2binary.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "unary2binary"
+   }
+  ]
+ }
+]
